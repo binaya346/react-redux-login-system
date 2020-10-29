@@ -1,0 +1,36 @@
+.heading-one,
+.heading-two,
+.heading-three,
+.heading-four {
+  color: $text-color;
+}
+
+.heading-one {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.heading-two {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.heading-three {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.heading-four {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading-five {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sub-heading {
+  color: $text-color-opacity;
+  opacity: 0.8;
+}

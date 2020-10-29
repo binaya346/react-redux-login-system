@@ -1,0 +1,32 @@
+.form-group {
+  margin-bottom: 25px;
+}
+
+.label-wrap {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label.input-label {
+  font-size: 15px;
+  color: $text-color;
+  display: block;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  text-indent: 10px;
+  border: 1px solid $border-color;
+  background-color: $white;
+  border-radius: 4px;
+  outline: none;
+  &:focus {
+    border-color: $primary-color;
+  }
+}

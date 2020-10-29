@@ -1,0 +1,8 @@
+.login-form-wrap {
+  margin: 40px auto;
+  padding: 0 25px;
+  width: calc(100% - 50px);
+  @media (min-width: 576px) {
+    width: 480px;
+  }
+}
